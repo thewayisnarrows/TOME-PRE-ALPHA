@@ -1,263 +1,266 @@
 fileFormatVersion: 2
-guid: 338a8525c8f1b4646bd16ae1920914d0
-timeCreated: 1523502438
+guid: 66b783ef4cab5dc45a8296f411b09ef7
+timeCreated: 1527113989
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: temp tileset_0
-    21300002: temp tileset_1
-    21300004: temp tileset_2
-    21300006: temp tileset_3
-    21300008: temp tileset_4
-    21300010: temp tileset_5
-    21300012: temp tileset_6
-    21300014: temp tileset_7
-    21300016: temp tileset_8
-    21300018: temp tileset_9
-    21300020: temp tileset_10
-    21300022: temp tileset_11
-    21300024: temp tileset_12
-    21300026: temp tileset_13
-    21300028: temp tileset_14
-    21300030: temp tileset_15
-    21300032: temp tileset_16
-    21300034: temp tileset_17
-    21300036: temp tileset_18
-    21300038: temp tileset_19
-    21300040: temp tileset_20
-    21300042: temp tileset_21
-    21300044: temp tileset_22
-    21300046: temp tileset_23
-    21300048: temp tileset_24
-    21300050: temp tileset_25
-    21300052: temp tileset_26
-    21300054: temp tileset_27
-    21300056: temp tileset_28
-    21300058: temp tileset_29
-    21300060: temp tileset_30
-    21300062: temp tileset_31
-    21300064: temp tileset_32
-    21300066: temp tileset_33
-    21300068: temp tileset_34
-    21300070: temp tileset_35
-    21300072: temp tileset_36
-    21300074: temp tileset_37
-    21300076: temp tileset_38
-    21300078: temp tileset_39
-    21300080: temp tileset_40
-    21300082: temp tileset_41
-    21300084: temp tileset_42
-    21300086: temp tileset_43
-    21300088: temp tileset_44
-    21300090: temp tileset_45
-    21300092: temp tileset_46
-    21300094: temp tileset_47
-    21300096: temp tileset_48
-    21300098: temp tileset_49
-    21300100: temp tileset_50
-    21300102: temp tileset_51
-    21300104: temp tileset_52
-    21300106: temp tileset_53
-    21300108: temp tileset_54
-    21300110: temp tileset_55
-    21300112: temp tileset_56
-    21300114: temp tileset_57
-    21300116: temp tileset_58
-    21300118: temp tileset_59
-    21300120: temp tileset_60
-    21300122: temp tileset_61
-    21300124: temp tileset_62
-    21300126: temp tileset_63
-    21300128: temp tileset_64
-    21300130: temp tileset_65
-    21300132: temp tileset_66
-    21300134: temp tileset_67
-    21300136: temp tileset_68
-    21300138: temp tileset_69
-    21300140: temp tileset_70
-    21300142: temp tileset_71
-    21300144: temp tileset_72
-    21300146: temp tileset_73
-    21300148: temp tileset_74
-    21300150: temp tileset_75
-    21300152: temp tileset_76
-    21300154: temp tileset_77
-    21300156: temp tileset_78
-    21300158: temp tileset_79
-    21300160: temp tileset_80
-    21300162: temp tileset_81
-    21300164: temp tileset_82
-    21300166: temp tileset_83
-    21300168: temp tileset_84
-    21300170: temp tileset_85
-    21300172: temp tileset_86
-    21300174: temp tileset_87
-    21300176: temp tileset_88
-    21300178: temp tileset_89
-    21300180: temp tileset_90
-    21300182: temp tileset_91
-    21300184: temp tileset_92
-    21300186: temp tileset_93
-    21300188: temp tileset_94
-    21300190: temp tileset_95
-    21300192: temp tileset_96
-    21300194: temp tileset_97
-    21300196: temp tileset_98
-    21300198: temp tileset_99
-    21300200: temp tileset_100
-    21300202: temp tileset_101
-    21300204: temp tileset_102
-    21300206: temp tileset_103
-    21300208: temp tileset_104
-    21300210: temp tileset_105
-    21300212: temp tileset_106
-    21300214: temp tileset_107
-    21300216: temp tileset_108
-    21300218: temp tileset_109
-    21300220: temp tileset_110
-    21300222: temp tileset_111
-    21300224: temp tileset_112
-    21300226: temp tileset_113
-    21300228: temp tileset_114
-    21300230: temp tileset_115
-    21300232: temp tileset_116
-    21300234: temp tileset_117
-    21300236: temp tileset_118
-    21300238: temp tileset_119
-    21300240: temp tileset_120
-    21300242: temp tileset_121
-    21300244: temp tileset_122
-    21300246: temp tileset_123
-    21300248: temp tileset_124
-    21300250: temp tileset_125
-    21300252: temp tileset_126
-    21300254: temp tileset_127
-    21300256: temp tileset_128
-    21300258: temp tileset_129
-    21300260: temp tileset_130
-    21300262: temp tileset_131
-    21300264: temp tileset_132
-    21300266: temp tileset_133
-    21300268: temp tileset_134
-    21300270: temp tileset_135
-    21300272: temp tileset_136
-    21300274: temp tileset_137
-    21300276: temp tileset_138
-    21300278: temp tileset_139
-    21300280: temp tileset_140
-    21300282: temp tileset_141
-    21300284: temp tileset_142
-    21300286: temp tileset_143
-    21300288: temp tileset_144
-    21300290: temp tileset_145
-    21300292: temp tileset_146
-    21300294: temp tileset_147
-    21300296: temp tileset_148
-    21300298: temp tileset_149
-    21300300: temp tileset_150
-    21300302: temp tileset_151
-    21300304: temp tileset_152
-    21300306: temp tileset_153
-    21300308: temp tileset_154
-    21300310: temp tileset_155
-    21300312: temp tileset_156
-    21300314: temp tileset_157
-    21300316: temp tileset_158
-    21300318: temp tileset_159
-    21300320: temp tileset_160
-    21300322: temp tileset_161
-    21300324: temp tileset_162
-    21300326: temp tileset_163
-    21300328: temp tileset_164
-    21300330: temp tileset_165
-    21300332: temp tileset_166
-    21300334: temp tileset_167
-    21300336: temp tileset_168
-    21300338: temp tileset_169
-    21300340: temp tileset_170
-    21300342: temp tileset_171
-    21300344: temp tileset_172
-    21300346: temp tileset_173
-    21300348: temp tileset_174
-    21300350: temp tileset_175
-    21300352: temp tileset_176
-    21300354: temp tileset_177
-    21300356: temp tileset_178
-    21300358: temp tileset_179
-    21300360: temp tileset_180
-    21300362: temp tileset_181
-    21300364: temp tileset_182
-    21300366: temp tileset_183
-    21300368: temp tileset_184
-    21300370: temp tileset_185
-    21300372: temp tileset_186
-    21300374: temp tileset_187
-    21300376: temp tileset_188
-    21300378: temp tileset_189
-    21300380: temp tileset_190
-    21300382: temp tileset_191
-    21300384: temp tileset_192
-    21300386: temp tileset_193
-    21300388: temp tileset_194
-    21300390: temp tileset_195
-    21300392: temp tileset_196
-    21300394: temp tileset_197
-    21300396: temp tileset_198
-    21300398: temp tileset_199
-    21300400: temp tileset_200
-    21300402: temp tileset_201
-    21300404: temp tileset_202
-    21300406: temp tileset_203
-    21300408: temp tileset_204
-    21300410: temp tileset_205
-    21300412: temp tileset_206
-    21300414: temp tileset_207
-    21300416: temp tileset_208
-    21300418: temp tileset_209
-    21300420: temp tileset_210
-    21300422: temp tileset_211
-    21300424: temp tileset_212
-    21300426: temp tileset_213
-    21300428: temp tileset_214
-    21300430: temp tileset_215
-    21300432: temp tileset_216
-    21300434: temp tileset_217
-    21300436: temp tileset_218
-    21300438: temp tileset_219
-    21300440: temp tileset_220
-    21300442: temp tileset_221
-    21300444: temp tileset_222
-    21300446: temp tileset_223
-    21300448: temp tileset_224
-    21300450: temp tileset_225
-    21300452: temp tileset_226
-    21300454: temp tileset_227
-    21300456: temp tileset_228
-    21300458: temp tileset_229
-    21300460: temp tileset_230
-    21300462: temp tileset_231
-    21300464: temp tileset_232
-    21300466: temp tileset_233
-    21300468: temp tileset_234
-    21300470: temp tileset_235
-    21300472: temp tileset_236
-    21300474: temp tileset_237
-    21300476: temp tileset_238
-    21300478: temp tileset_239
-    21300480: temp tileset_240
-    21300482: temp tileset_241
-    21300484: temp tileset_242
-    21300486: temp tileset_243
-    21300488: temp tileset_244
-    21300490: temp tileset_245
-    21300492: temp tileset_246
-    21300494: temp tileset_247
-    21300496: temp tileset_248
-    21300498: temp tileset_249
-    21300500: temp tileset_250
-    21300502: temp tileset_251
-    21300504: temp tileset_252
-    21300506: temp tileset_253
+    21300000: player-move-placeholder_0
+    21300002: player-move-placeholder_1
+    21300004: player-move-placeholder_2
+    21300006: player-move-placeholder_3
+    21300008: player-move-placeholder_4
+    21300010: player-move-placeholder_5
+    21300012: player-move-placeholder_6
+    21300014: player-move-placeholder_7
+    21300016: player-move-placeholder_8
+    21300018: player-move-placeholder_9
+    21300020: player-move-placeholder_10
+    21300022: player-move-placeholder_11
+    21300024: player-move-placeholder_12
+    21300026: player-move-placeholder_13
+    21300028: player-move-placeholder_14
+    21300030: player-move-placeholder_15
+    21300032: player-move-placeholder_16
+    21300034: player-move-placeholder_17
+    21300036: player-move-placeholder_18
+    21300038: player-move-placeholder_19
+    21300040: player-move-placeholder_20
+    21300042: player-move-placeholder_21
+    21300044: player-move-placeholder_22
+    21300046: player-move-placeholder_23
+    21300048: player-move-placeholder_24
+    21300050: player-move-placeholder_25
+    21300052: player-move-placeholder_26
+    21300054: player-move-placeholder_27
+    21300056: player-move-placeholder_28
+    21300058: player-move-placeholder_29
+    21300060: player-move-placeholder_30
+    21300062: player-move-placeholder_31
+    21300064: player-move-placeholder_32
+    21300066: player-move-placeholder_33
+    21300068: player-move-placeholder_34
+    21300070: player-move-placeholder_35
+    21300072: player-move-placeholder_36
+    21300074: player-move-placeholder_37
+    21300076: player-move-placeholder_38
+    21300078: player-move-placeholder_39
+    21300080: player-move-placeholder_40
+    21300082: player-move-placeholder_41
+    21300084: player-move-placeholder_42
+    21300086: player-move-placeholder_43
+    21300088: player-move-placeholder_44
+    21300090: player-move-placeholder_45
+    21300092: player-move-placeholder_46
+    21300094: player-move-placeholder_47
+    21300096: player-move-placeholder_48
+    21300098: player-move-placeholder_49
+    21300100: player-move-placeholder_50
+    21300102: player-move-placeholder_51
+    21300104: player-move-placeholder_52
+    21300106: player-move-placeholder_53
+    21300108: player-move-placeholder_54
+    21300110: player-move-placeholder_55
+    21300112: player-move-placeholder_56
+    21300114: player-move-placeholder_57
+    21300116: player-move-placeholder_58
+    21300118: player-move-placeholder_59
+    21300120: player-move-placeholder_60
+    21300122: player-move-placeholder_61
+    21300124: player-move-placeholder_62
+    21300126: player-move-placeholder_63
+    21300128: player-move-placeholder_64
+    21300130: player-move-placeholder_65
+    21300132: player-move-placeholder_66
+    21300134: player-move-placeholder_67
+    21300136: player-move-placeholder_68
+    21300138: player-move-placeholder_69
+    21300140: player-move-placeholder_70
+    21300142: player-move-placeholder_71
+    21300144: player-move-placeholder_72
+    21300146: player-move-placeholder_73
+    21300148: player-move-placeholder_74
+    21300150: player-move-placeholder_75
+    21300152: player-move-placeholder_76
+    21300154: player-move-placeholder_77
+    21300156: player-move-placeholder_78
+    21300158: player-move-placeholder_79
+    21300160: player-move-placeholder_80
+    21300162: player-move-placeholder_81
+    21300164: player-move-placeholder_82
+    21300166: player-move-placeholder_83
+    21300168: player-move-placeholder_84
+    21300170: player-move-placeholder_85
+    21300172: player-move-placeholder_86
+    21300174: player-move-placeholder_87
+    21300176: player-move-placeholder_88
+    21300178: player-move-placeholder_89
+    21300180: player-move-placeholder_90
+    21300182: player-move-placeholder_91
+    21300184: player-move-placeholder_92
+    21300186: player-move-placeholder_93
+    21300188: player-move-placeholder_94
+    21300190: player-move-placeholder_95
+    21300192: player-move-placeholder_96
+    21300194: player-move-placeholder_97
+    21300196: player-move-placeholder_98
+    21300198: player-move-placeholder_99
+    21300200: player-move-placeholder_100
+    21300202: player-move-placeholder_101
+    21300204: player-move-placeholder_102
+    21300206: player-move-placeholder_103
+    21300208: player-move-placeholder_104
+    21300210: player-move-placeholder_105
+    21300212: player-move-placeholder_106
+    21300214: player-move-placeholder_107
+    21300216: player-move-placeholder_108
+    21300218: player-move-placeholder_109
+    21300220: player-move-placeholder_110
+    21300222: player-move-placeholder_111
+    21300224: player-move-placeholder_112
+    21300226: player-move-placeholder_113
+    21300228: player-move-placeholder_114
+    21300230: player-move-placeholder_115
+    21300232: player-move-placeholder_116
+    21300234: player-move-placeholder_117
+    21300236: player-move-placeholder_118
+    21300238: player-move-placeholder_119
+    21300240: player-move-placeholder_120
+    21300242: player-move-placeholder_121
+    21300244: player-move-placeholder_122
+    21300246: player-move-placeholder_123
+    21300248: player-move-placeholder_124
+    21300250: player-move-placeholder_125
+    21300252: player-move-placeholder_126
+    21300254: player-move-placeholder_127
+    21300256: player-move-placeholder_128
+    21300258: player-move-placeholder_129
+    21300260: player-move-placeholder_130
+    21300262: player-move-placeholder_131
+    21300264: player-move-placeholder_132
+    21300266: player-move-placeholder_133
+    21300268: player-move-placeholder_134
+    21300270: player-move-placeholder_135
+    21300272: player-move-placeholder_136
+    21300274: player-move-placeholder_137
+    21300276: player-move-placeholder_138
+    21300278: player-move-placeholder_139
+    21300280: player-move-placeholder_140
+    21300282: player-move-placeholder_141
+    21300284: player-move-placeholder_142
+    21300286: player-move-placeholder_143
+    21300288: player-move-placeholder_144
+    21300290: player-move-placeholder_145
+    21300292: player-move-placeholder_146
+    21300294: player-move-placeholder_147
+    21300296: player-move-placeholder_148
+    21300298: player-move-placeholder_149
+    21300300: player-move-placeholder_150
+    21300302: player-move-placeholder_151
+    21300304: player-move-placeholder_152
+    21300306: player-move-placeholder_153
+    21300308: player-move-placeholder_154
+    21300310: player-move-placeholder_155
+    21300312: player-move-placeholder_156
+    21300314: player-move-placeholder_157
+    21300316: player-move-placeholder_158
+    21300318: player-move-placeholder_159
+    21300320: player-move-placeholder_160
+    21300322: player-move-placeholder_161
+    21300324: player-move-placeholder_162
+    21300326: player-move-placeholder_163
+    21300328: player-move-placeholder_164
+    21300330: player-move-placeholder_165
+    21300332: player-move-placeholder_166
+    21300334: player-move-placeholder_167
+    21300336: player-move-placeholder_168
+    21300338: player-move-placeholder_169
+    21300340: player-move-placeholder_170
+    21300342: player-move-placeholder_171
+    21300344: player-move-placeholder_172
+    21300346: player-move-placeholder_173
+    21300348: player-move-placeholder_174
+    21300350: player-move-placeholder_175
+    21300352: player-move-placeholder_176
+    21300354: player-move-placeholder_177
+    21300356: player-move-placeholder_178
+    21300358: player-move-placeholder_179
+    21300360: player-move-placeholder_180
+    21300362: player-move-placeholder_181
+    21300364: player-move-placeholder_182
+    21300366: player-move-placeholder_183
+    21300368: player-move-placeholder_184
+    21300370: player-move-placeholder_185
+    21300372: player-move-placeholder_186
+    21300374: player-move-placeholder_187
+    21300376: player-move-placeholder_188
+    21300378: player-move-placeholder_189
+    21300380: player-move-placeholder_190
+    21300382: player-move-placeholder_191
+    21300384: player-move-placeholder_192
+    21300386: player-move-placeholder_193
+    21300388: player-move-placeholder_194
+    21300390: player-move-placeholder_195
+    21300392: player-move-placeholder_196
+    21300394: player-move-placeholder_197
+    21300396: player-move-placeholder_198
+    21300398: player-move-placeholder_199
+    21300400: player-move-placeholder_200
+    21300402: player-move-placeholder_201
+    21300404: player-move-placeholder_202
+    21300406: player-move-placeholder_203
+    21300408: player-move-placeholder_204
+    21300410: player-move-placeholder_205
+    21300412: player-move-placeholder_206
+    21300414: player-move-placeholder_207
+    21300416: player-move-placeholder_208
+    21300418: player-move-placeholder_209
+    21300420: player-move-placeholder_210
+    21300422: player-move-placeholder_211
+    21300424: player-move-placeholder_212
+    21300426: player-move-placeholder_213
+    21300428: player-move-placeholder_214
+    21300430: player-move-placeholder_215
+    21300432: player-move-placeholder_216
+    21300434: player-move-placeholder_217
+    21300436: player-move-placeholder_218
+    21300438: player-move-placeholder_219
+    21300440: player-move-placeholder_220
+    21300442: player-move-placeholder_221
+    21300444: player-move-placeholder_222
+    21300446: player-move-placeholder_223
+    21300448: player-move-placeholder_224
+    21300450: player-move-placeholder_225
+    21300452: player-move-placeholder_226
+    21300454: player-move-placeholder_227
+    21300456: player-move-placeholder_228
+    21300458: player-move-placeholder_229
+    21300460: player-move-placeholder_230
+    21300462: player-move-placeholder_231
+    21300464: player-move-placeholder_232
+    21300466: player-move-placeholder_233
+    21300468: player-move-placeholder_234
+    21300470: player-move-placeholder_235
+    21300472: player-move-placeholder_236
+    21300474: player-move-placeholder_237
+    21300476: player-move-placeholder_238
+    21300478: player-move-placeholder_239
+    21300480: player-move-placeholder_240
+    21300482: player-move-placeholder_241
+    21300484: player-move-placeholder_242
+    21300486: player-move-placeholder_243
+    21300488: player-move-placeholder_244
+    21300490: player-move-placeholder_245
+    21300492: player-move-placeholder_246
+    21300494: player-move-placeholder_247
+    21300496: player-move-placeholder_248
+    21300498: player-move-placeholder_249
+    21300500: player-move-placeholder_250
+    21300502: player-move-placeholder_251
+    21300504: player-move-placeholder_252
+    21300506: player-move-placeholder_253
+    21300508: player-move-placeholder_254
+    21300510: player-move-placeholder_255
+    21300512: player-move-placeholder_256
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -314,14 +317,14 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -334,7 +337,231 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: temp tileset_0
+      name: player-move-placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player-move-placeholder_16
       rect:
         serializedVersion: 2
         x: 0
@@ -348,7 +575,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_1
+      name: player-move-placeholder_17
       rect:
         serializedVersion: 2
         x: 32
@@ -362,7 +589,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_2
+      name: player-move-placeholder_18
       rect:
         serializedVersion: 2
         x: 64
@@ -376,7 +603,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_3
+      name: player-move-placeholder_19
       rect:
         serializedVersion: 2
         x: 96
@@ -390,7 +617,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_4
+      name: player-move-placeholder_20
       rect:
         serializedVersion: 2
         x: 128
@@ -404,7 +631,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_5
+      name: player-move-placeholder_21
       rect:
         serializedVersion: 2
         x: 160
@@ -418,7 +645,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_6
+      name: player-move-placeholder_22
       rect:
         serializedVersion: 2
         x: 192
@@ -432,7 +659,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_7
+      name: player-move-placeholder_23
       rect:
         serializedVersion: 2
         x: 224
@@ -446,7 +673,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_8
+      name: player-move-placeholder_24
       rect:
         serializedVersion: 2
         x: 256
@@ -460,7 +687,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_9
+      name: player-move-placeholder_25
       rect:
         serializedVersion: 2
         x: 288
@@ -474,7 +701,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_10
+      name: player-move-placeholder_26
       rect:
         serializedVersion: 2
         x: 320
@@ -488,7 +715,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_11
+      name: player-move-placeholder_27
       rect:
         serializedVersion: 2
         x: 352
@@ -502,7 +729,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_12
+      name: player-move-placeholder_28
       rect:
         serializedVersion: 2
         x: 384
@@ -516,7 +743,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_13
+      name: player-move-placeholder_29
       rect:
         serializedVersion: 2
         x: 416
@@ -530,7 +757,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_14
+      name: player-move-placeholder_30
       rect:
         serializedVersion: 2
         x: 448
@@ -544,7 +771,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_15
+      name: player-move-placeholder_31
       rect:
         serializedVersion: 2
         x: 480
@@ -558,7 +785,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_16
+      name: player-move-placeholder_32
       rect:
         serializedVersion: 2
         x: 0
@@ -572,7 +799,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_17
+      name: player-move-placeholder_33
       rect:
         serializedVersion: 2
         x: 32
@@ -586,7 +813,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_18
+      name: player-move-placeholder_34
       rect:
         serializedVersion: 2
         x: 64
@@ -600,7 +827,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_19
+      name: player-move-placeholder_35
       rect:
         serializedVersion: 2
         x: 96
@@ -614,7 +841,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_20
+      name: player-move-placeholder_36
       rect:
         serializedVersion: 2
         x: 128
@@ -628,7 +855,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_21
+      name: player-move-placeholder_37
       rect:
         serializedVersion: 2
         x: 160
@@ -642,7 +869,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_22
+      name: player-move-placeholder_38
       rect:
         serializedVersion: 2
         x: 192
@@ -656,7 +883,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_23
+      name: player-move-placeholder_39
       rect:
         serializedVersion: 2
         x: 224
@@ -670,7 +897,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_24
+      name: player-move-placeholder_40
       rect:
         serializedVersion: 2
         x: 256
@@ -684,7 +911,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_25
+      name: player-move-placeholder_41
       rect:
         serializedVersion: 2
         x: 288
@@ -698,7 +925,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_26
+      name: player-move-placeholder_42
       rect:
         serializedVersion: 2
         x: 320
@@ -712,7 +939,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_27
+      name: player-move-placeholder_43
       rect:
         serializedVersion: 2
         x: 352
@@ -726,7 +953,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_28
+      name: player-move-placeholder_44
       rect:
         serializedVersion: 2
         x: 384
@@ -740,7 +967,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_29
+      name: player-move-placeholder_45
       rect:
         serializedVersion: 2
         x: 416
@@ -754,7 +981,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_30
+      name: player-move-placeholder_46
       rect:
         serializedVersion: 2
         x: 448
@@ -768,7 +995,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_31
+      name: player-move-placeholder_47
       rect:
         serializedVersion: 2
         x: 480
@@ -782,7 +1009,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_32
+      name: player-move-placeholder_48
       rect:
         serializedVersion: 2
         x: 0
@@ -796,7 +1023,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_33
+      name: player-move-placeholder_49
       rect:
         serializedVersion: 2
         x: 32
@@ -810,7 +1037,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_34
+      name: player-move-placeholder_50
       rect:
         serializedVersion: 2
         x: 64
@@ -824,7 +1051,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_35
+      name: player-move-placeholder_51
       rect:
         serializedVersion: 2
         x: 96
@@ -838,7 +1065,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_36
+      name: player-move-placeholder_52
       rect:
         serializedVersion: 2
         x: 128
@@ -852,7 +1079,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_37
+      name: player-move-placeholder_53
       rect:
         serializedVersion: 2
         x: 160
@@ -866,7 +1093,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_38
+      name: player-move-placeholder_54
       rect:
         serializedVersion: 2
         x: 192
@@ -880,7 +1107,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_39
+      name: player-move-placeholder_55
       rect:
         serializedVersion: 2
         x: 224
@@ -894,7 +1121,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_40
+      name: player-move-placeholder_56
       rect:
         serializedVersion: 2
         x: 256
@@ -908,7 +1135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_41
+      name: player-move-placeholder_57
       rect:
         serializedVersion: 2
         x: 288
@@ -922,7 +1149,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_42
+      name: player-move-placeholder_58
       rect:
         serializedVersion: 2
         x: 320
@@ -936,7 +1163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_43
+      name: player-move-placeholder_59
       rect:
         serializedVersion: 2
         x: 352
@@ -950,7 +1177,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_44
+      name: player-move-placeholder_60
       rect:
         serializedVersion: 2
         x: 384
@@ -964,7 +1191,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_45
+      name: player-move-placeholder_61
       rect:
         serializedVersion: 2
         x: 416
@@ -978,7 +1205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_46
+      name: player-move-placeholder_62
       rect:
         serializedVersion: 2
         x: 448
@@ -992,7 +1219,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_47
+      name: player-move-placeholder_63
       rect:
         serializedVersion: 2
         x: 480
@@ -1006,7 +1233,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_48
+      name: player-move-placeholder_64
       rect:
         serializedVersion: 2
         x: 0
@@ -1020,7 +1247,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_49
+      name: player-move-placeholder_65
       rect:
         serializedVersion: 2
         x: 32
@@ -1034,7 +1261,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_50
+      name: player-move-placeholder_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1048,7 +1275,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_51
+      name: player-move-placeholder_67
       rect:
         serializedVersion: 2
         x: 96
@@ -1062,7 +1289,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_52
+      name: player-move-placeholder_68
       rect:
         serializedVersion: 2
         x: 128
@@ -1076,7 +1303,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_53
+      name: player-move-placeholder_69
       rect:
         serializedVersion: 2
         x: 160
@@ -1090,7 +1317,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_54
+      name: player-move-placeholder_70
       rect:
         serializedVersion: 2
         x: 192
@@ -1104,7 +1331,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_55
+      name: player-move-placeholder_71
       rect:
         serializedVersion: 2
         x: 224
@@ -1118,7 +1345,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_56
+      name: player-move-placeholder_72
       rect:
         serializedVersion: 2
         x: 256
@@ -1132,7 +1359,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_57
+      name: player-move-placeholder_73
       rect:
         serializedVersion: 2
         x: 288
@@ -1146,7 +1373,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_58
+      name: player-move-placeholder_74
       rect:
         serializedVersion: 2
         x: 320
@@ -1160,7 +1387,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_59
+      name: player-move-placeholder_75
       rect:
         serializedVersion: 2
         x: 352
@@ -1174,7 +1401,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_60
+      name: player-move-placeholder_76
       rect:
         serializedVersion: 2
         x: 384
@@ -1188,7 +1415,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_61
+      name: player-move-placeholder_77
       rect:
         serializedVersion: 2
         x: 416
@@ -1202,7 +1429,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_62
+      name: player-move-placeholder_78
       rect:
         serializedVersion: 2
         x: 448
@@ -1216,7 +1443,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_63
+      name: player-move-placeholder_79
       rect:
         serializedVersion: 2
         x: 480
@@ -1230,7 +1457,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_64
+      name: player-move-placeholder_80
       rect:
         serializedVersion: 2
         x: 0
@@ -1244,7 +1471,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_65
+      name: player-move-placeholder_81
       rect:
         serializedVersion: 2
         x: 32
@@ -1258,7 +1485,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_66
+      name: player-move-placeholder_82
       rect:
         serializedVersion: 2
         x: 64
@@ -1272,7 +1499,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_67
+      name: player-move-placeholder_83
       rect:
         serializedVersion: 2
         x: 96
@@ -1286,7 +1513,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_68
+      name: player-move-placeholder_84
       rect:
         serializedVersion: 2
         x: 128
@@ -1300,7 +1527,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_69
+      name: player-move-placeholder_85
       rect:
         serializedVersion: 2
         x: 160
@@ -1314,7 +1541,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_70
+      name: player-move-placeholder_86
       rect:
         serializedVersion: 2
         x: 192
@@ -1328,7 +1555,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_71
+      name: player-move-placeholder_87
       rect:
         serializedVersion: 2
         x: 224
@@ -1342,7 +1569,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_72
+      name: player-move-placeholder_88
       rect:
         serializedVersion: 2
         x: 256
@@ -1356,7 +1583,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_73
+      name: player-move-placeholder_89
       rect:
         serializedVersion: 2
         x: 288
@@ -1370,7 +1597,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_74
+      name: player-move-placeholder_90
       rect:
         serializedVersion: 2
         x: 320
@@ -1384,7 +1611,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_75
+      name: player-move-placeholder_91
       rect:
         serializedVersion: 2
         x: 352
@@ -1398,21 +1625,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_76
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_77
+      name: player-move-placeholder_92
       rect:
         serializedVersion: 2
         x: 416
@@ -1426,7 +1639,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_78
+      name: player-move-placeholder_93
       rect:
         serializedVersion: 2
         x: 448
@@ -1440,7 +1653,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_79
+      name: player-move-placeholder_94
       rect:
         serializedVersion: 2
         x: 480
@@ -1454,7 +1667,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_80
+      name: player-move-placeholder_95
       rect:
         serializedVersion: 2
         x: 0
@@ -1468,7 +1681,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_81
+      name: player-move-placeholder_96
       rect:
         serializedVersion: 2
         x: 32
@@ -1482,7 +1695,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_82
+      name: player-move-placeholder_97
       rect:
         serializedVersion: 2
         x: 64
@@ -1496,7 +1709,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_83
+      name: player-move-placeholder_98
       rect:
         serializedVersion: 2
         x: 96
@@ -1510,7 +1723,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_84
+      name: player-move-placeholder_99
       rect:
         serializedVersion: 2
         x: 128
@@ -1524,7 +1737,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_85
+      name: player-move-placeholder_100
       rect:
         serializedVersion: 2
         x: 160
@@ -1538,7 +1751,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_86
+      name: player-move-placeholder_101
       rect:
         serializedVersion: 2
         x: 192
@@ -1552,7 +1765,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_87
+      name: player-move-placeholder_102
       rect:
         serializedVersion: 2
         x: 224
@@ -1566,7 +1779,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_88
+      name: player-move-placeholder_103
       rect:
         serializedVersion: 2
         x: 256
@@ -1580,7 +1793,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_89
+      name: player-move-placeholder_104
       rect:
         serializedVersion: 2
         x: 288
@@ -1594,7 +1807,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_90
+      name: player-move-placeholder_105
       rect:
         serializedVersion: 2
         x: 320
@@ -1608,7 +1821,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_91
+      name: player-move-placeholder_106
       rect:
         serializedVersion: 2
         x: 352
@@ -1622,21 +1835,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_92
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_93
+      name: player-move-placeholder_107
       rect:
         serializedVersion: 2
         x: 416
@@ -1650,7 +1849,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_94
+      name: player-move-placeholder_108
       rect:
         serializedVersion: 2
         x: 448
@@ -1664,7 +1863,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_95
+      name: player-move-placeholder_109
       rect:
         serializedVersion: 2
         x: 480
@@ -1678,7 +1877,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_96
+      name: player-move-placeholder_110
       rect:
         serializedVersion: 2
         x: 0
@@ -1692,7 +1891,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_97
+      name: player-move-placeholder_111
       rect:
         serializedVersion: 2
         x: 32
@@ -1706,7 +1905,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_98
+      name: player-move-placeholder_112
       rect:
         serializedVersion: 2
         x: 64
@@ -1720,7 +1919,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_99
+      name: player-move-placeholder_113
       rect:
         serializedVersion: 2
         x: 96
@@ -1734,7 +1933,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_100
+      name: player-move-placeholder_114
       rect:
         serializedVersion: 2
         x: 128
@@ -1748,7 +1947,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_101
+      name: player-move-placeholder_115
       rect:
         serializedVersion: 2
         x: 160
@@ -1762,7 +1961,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_102
+      name: player-move-placeholder_116
       rect:
         serializedVersion: 2
         x: 192
@@ -1776,7 +1975,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_103
+      name: player-move-placeholder_117
       rect:
         serializedVersion: 2
         x: 224
@@ -1790,7 +1989,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_104
+      name: player-move-placeholder_118
       rect:
         serializedVersion: 2
         x: 256
@@ -1804,7 +2003,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_105
+      name: player-move-placeholder_119
       rect:
         serializedVersion: 2
         x: 288
@@ -1818,7 +2017,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_106
+      name: player-move-placeholder_120
       rect:
         serializedVersion: 2
         x: 320
@@ -1832,7 +2031,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_107
+      name: player-move-placeholder_121
       rect:
         serializedVersion: 2
         x: 352
@@ -1846,21 +2045,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_108
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_109
+      name: player-move-placeholder_122
       rect:
         serializedVersion: 2
         x: 416
@@ -1874,7 +2059,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_110
+      name: player-move-placeholder_123
       rect:
         serializedVersion: 2
         x: 448
@@ -1888,7 +2073,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_111
+      name: player-move-placeholder_124
       rect:
         serializedVersion: 2
         x: 480
@@ -1902,7 +2087,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_112
+      name: player-move-placeholder_125
       rect:
         serializedVersion: 2
         x: 0
@@ -1916,7 +2101,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_113
+      name: player-move-placeholder_126
       rect:
         serializedVersion: 2
         x: 32
@@ -1930,7 +2115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_114
+      name: player-move-placeholder_127
       rect:
         serializedVersion: 2
         x: 64
@@ -1944,7 +2129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_115
+      name: player-move-placeholder_128
       rect:
         serializedVersion: 2
         x: 96
@@ -1958,7 +2143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_116
+      name: player-move-placeholder_129
       rect:
         serializedVersion: 2
         x: 128
@@ -1972,7 +2157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_117
+      name: player-move-placeholder_130
       rect:
         serializedVersion: 2
         x: 160
@@ -1986,7 +2171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_118
+      name: player-move-placeholder_131
       rect:
         serializedVersion: 2
         x: 192
@@ -2000,7 +2185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_119
+      name: player-move-placeholder_132
       rect:
         serializedVersion: 2
         x: 224
@@ -2014,7 +2199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_120
+      name: player-move-placeholder_133
       rect:
         serializedVersion: 2
         x: 256
@@ -2028,7 +2213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_121
+      name: player-move-placeholder_134
       rect:
         serializedVersion: 2
         x: 288
@@ -2042,7 +2227,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_122
+      name: player-move-placeholder_135
       rect:
         serializedVersion: 2
         x: 320
@@ -2056,7 +2241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_123
+      name: player-move-placeholder_136
       rect:
         serializedVersion: 2
         x: 352
@@ -2070,21 +2255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_124
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_125
+      name: player-move-placeholder_137
       rect:
         serializedVersion: 2
         x: 416
@@ -2098,7 +2269,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_126
+      name: player-move-placeholder_138
       rect:
         serializedVersion: 2
         x: 448
@@ -2112,7 +2283,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_127
+      name: player-move-placeholder_139
       rect:
         serializedVersion: 2
         x: 480
@@ -2126,7 +2297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_128
+      name: player-move-placeholder_140
       rect:
         serializedVersion: 2
         x: 0
@@ -2140,7 +2311,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_129
+      name: player-move-placeholder_141
       rect:
         serializedVersion: 2
         x: 32
@@ -2154,7 +2325,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_130
+      name: player-move-placeholder_142
       rect:
         serializedVersion: 2
         x: 64
@@ -2168,7 +2339,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_131
+      name: player-move-placeholder_143
       rect:
         serializedVersion: 2
         x: 96
@@ -2182,7 +2353,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_132
+      name: player-move-placeholder_144
       rect:
         serializedVersion: 2
         x: 128
@@ -2196,7 +2367,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_133
+      name: player-move-placeholder_145
       rect:
         serializedVersion: 2
         x: 160
@@ -2210,7 +2381,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_134
+      name: player-move-placeholder_146
       rect:
         serializedVersion: 2
         x: 192
@@ -2224,7 +2395,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_135
+      name: player-move-placeholder_147
       rect:
         serializedVersion: 2
         x: 224
@@ -2238,7 +2409,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_136
+      name: player-move-placeholder_148
       rect:
         serializedVersion: 2
         x: 256
@@ -2252,7 +2423,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_137
+      name: player-move-placeholder_149
       rect:
         serializedVersion: 2
         x: 288
@@ -2266,7 +2437,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_138
+      name: player-move-placeholder_150
       rect:
         serializedVersion: 2
         x: 320
@@ -2280,7 +2451,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_139
+      name: player-move-placeholder_151
       rect:
         serializedVersion: 2
         x: 352
@@ -2294,21 +2465,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_140
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_141
+      name: player-move-placeholder_152
       rect:
         serializedVersion: 2
         x: 416
@@ -2322,7 +2479,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_142
+      name: player-move-placeholder_153
       rect:
         serializedVersion: 2
         x: 448
@@ -2336,7 +2493,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_143
+      name: player-move-placeholder_154
       rect:
         serializedVersion: 2
         x: 480
@@ -2350,7 +2507,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_144
+      name: player-move-placeholder_155
       rect:
         serializedVersion: 2
         x: 0
@@ -2364,7 +2521,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_145
+      name: player-move-placeholder_156
       rect:
         serializedVersion: 2
         x: 32
@@ -2378,7 +2535,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_146
+      name: player-move-placeholder_157
       rect:
         serializedVersion: 2
         x: 64
@@ -2392,7 +2549,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_147
+      name: player-move-placeholder_158
       rect:
         serializedVersion: 2
         x: 96
@@ -2406,7 +2563,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_148
+      name: player-move-placeholder_159
       rect:
         serializedVersion: 2
         x: 128
@@ -2420,7 +2577,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_149
+      name: player-move-placeholder_160
       rect:
         serializedVersion: 2
         x: 160
@@ -2434,7 +2591,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_150
+      name: player-move-placeholder_161
       rect:
         serializedVersion: 2
         x: 192
@@ -2448,7 +2605,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_151
+      name: player-move-placeholder_162
       rect:
         serializedVersion: 2
         x: 224
@@ -2462,7 +2619,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_152
+      name: player-move-placeholder_163
       rect:
         serializedVersion: 2
         x: 256
@@ -2476,7 +2633,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_153
+      name: player-move-placeholder_164
       rect:
         serializedVersion: 2
         x: 288
@@ -2490,7 +2647,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_154
+      name: player-move-placeholder_165
       rect:
         serializedVersion: 2
         x: 320
@@ -2504,7 +2661,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_155
+      name: player-move-placeholder_166
       rect:
         serializedVersion: 2
         x: 352
@@ -2518,7 +2675,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_156
+      name: player-move-placeholder_167
       rect:
         serializedVersion: 2
         x: 384
@@ -2532,7 +2689,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_157
+      name: player-move-placeholder_168
       rect:
         serializedVersion: 2
         x: 416
@@ -2546,7 +2703,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_158
+      name: player-move-placeholder_169
       rect:
         serializedVersion: 2
         x: 448
@@ -2560,7 +2717,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_159
+      name: player-move-placeholder_170
       rect:
         serializedVersion: 2
         x: 480
@@ -2574,7 +2731,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_160
+      name: player-move-placeholder_171
       rect:
         serializedVersion: 2
         x: 0
@@ -2588,7 +2745,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_161
+      name: player-move-placeholder_172
       rect:
         serializedVersion: 2
         x: 32
@@ -2602,7 +2759,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_162
+      name: player-move-placeholder_173
       rect:
         serializedVersion: 2
         x: 64
@@ -2616,7 +2773,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_163
+      name: player-move-placeholder_174
       rect:
         serializedVersion: 2
         x: 96
@@ -2630,7 +2787,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_164
+      name: player-move-placeholder_175
       rect:
         serializedVersion: 2
         x: 128
@@ -2644,7 +2801,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_165
+      name: player-move-placeholder_176
       rect:
         serializedVersion: 2
         x: 160
@@ -2658,7 +2815,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_166
+      name: player-move-placeholder_177
       rect:
         serializedVersion: 2
         x: 192
@@ -2672,7 +2829,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_167
+      name: player-move-placeholder_178
       rect:
         serializedVersion: 2
         x: 224
@@ -2686,7 +2843,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_168
+      name: player-move-placeholder_179
       rect:
         serializedVersion: 2
         x: 256
@@ -2700,7 +2857,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_169
+      name: player-move-placeholder_180
       rect:
         serializedVersion: 2
         x: 288
@@ -2714,7 +2871,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_170
+      name: player-move-placeholder_181
       rect:
         serializedVersion: 2
         x: 320
@@ -2728,7 +2885,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_171
+      name: player-move-placeholder_182
       rect:
         serializedVersion: 2
         x: 352
@@ -2742,7 +2899,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_172
+      name: player-move-placeholder_183
       rect:
         serializedVersion: 2
         x: 384
@@ -2756,7 +2913,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_173
+      name: player-move-placeholder_184
       rect:
         serializedVersion: 2
         x: 416
@@ -2770,7 +2927,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_174
+      name: player-move-placeholder_185
       rect:
         serializedVersion: 2
         x: 448
@@ -2784,7 +2941,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_175
+      name: player-move-placeholder_186
       rect:
         serializedVersion: 2
         x: 480
@@ -2798,7 +2955,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_176
+      name: player-move-placeholder_187
       rect:
         serializedVersion: 2
         x: 0
@@ -2812,7 +2969,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_177
+      name: player-move-placeholder_188
       rect:
         serializedVersion: 2
         x: 32
@@ -2826,7 +2983,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_178
+      name: player-move-placeholder_189
       rect:
         serializedVersion: 2
         x: 64
@@ -2840,7 +2997,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_179
+      name: player-move-placeholder_190
       rect:
         serializedVersion: 2
         x: 96
@@ -2854,7 +3011,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_180
+      name: player-move-placeholder_191
       rect:
         serializedVersion: 2
         x: 128
@@ -2868,7 +3025,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_181
+      name: player-move-placeholder_192
       rect:
         serializedVersion: 2
         x: 160
@@ -2882,7 +3039,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_182
+      name: player-move-placeholder_193
       rect:
         serializedVersion: 2
         x: 192
@@ -2896,7 +3053,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_183
+      name: player-move-placeholder_194
       rect:
         serializedVersion: 2
         x: 224
@@ -2910,7 +3067,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_184
+      name: player-move-placeholder_195
       rect:
         serializedVersion: 2
         x: 256
@@ -2924,7 +3081,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_185
+      name: player-move-placeholder_196
       rect:
         serializedVersion: 2
         x: 288
@@ -2938,7 +3095,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_186
+      name: player-move-placeholder_197
       rect:
         serializedVersion: 2
         x: 320
@@ -2952,7 +3109,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_187
+      name: player-move-placeholder_198
       rect:
         serializedVersion: 2
         x: 352
@@ -2966,7 +3123,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_188
+      name: player-move-placeholder_199
       rect:
         serializedVersion: 2
         x: 384
@@ -2980,7 +3137,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_189
+      name: player-move-placeholder_200
       rect:
         serializedVersion: 2
         x: 416
@@ -2994,7 +3151,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_190
+      name: player-move-placeholder_201
       rect:
         serializedVersion: 2
         x: 448
@@ -3008,7 +3165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_191
+      name: player-move-placeholder_202
       rect:
         serializedVersion: 2
         x: 480
@@ -3022,7 +3179,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_192
+      name: player-move-placeholder_203
       rect:
         serializedVersion: 2
         x: 0
@@ -3036,7 +3193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_193
+      name: player-move-placeholder_204
       rect:
         serializedVersion: 2
         x: 32
@@ -3050,7 +3207,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_194
+      name: player-move-placeholder_205
       rect:
         serializedVersion: 2
         x: 64
@@ -3064,7 +3221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_195
+      name: player-move-placeholder_206
       rect:
         serializedVersion: 2
         x: 96
@@ -3078,7 +3235,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_196
+      name: player-move-placeholder_207
       rect:
         serializedVersion: 2
         x: 128
@@ -3092,7 +3249,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_197
+      name: player-move-placeholder_208
       rect:
         serializedVersion: 2
         x: 160
@@ -3106,7 +3263,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_198
+      name: player-move-placeholder_209
       rect:
         serializedVersion: 2
         x: 192
@@ -3120,7 +3277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_199
+      name: player-move-placeholder_210
       rect:
         serializedVersion: 2
         x: 224
@@ -3134,7 +3291,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_200
+      name: player-move-placeholder_211
       rect:
         serializedVersion: 2
         x: 256
@@ -3148,7 +3305,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_201
+      name: player-move-placeholder_212
       rect:
         serializedVersion: 2
         x: 288
@@ -3162,7 +3319,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_202
+      name: player-move-placeholder_213
       rect:
         serializedVersion: 2
         x: 320
@@ -3176,7 +3333,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_203
+      name: player-move-placeholder_214
       rect:
         serializedVersion: 2
         x: 352
@@ -3190,21 +3347,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_204
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_205
+      name: player-move-placeholder_215
       rect:
         serializedVersion: 2
         x: 416
@@ -3218,7 +3361,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_206
+      name: player-move-placeholder_216
       rect:
         serializedVersion: 2
         x: 448
@@ -3232,7 +3375,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_207
+      name: player-move-placeholder_217
       rect:
         serializedVersion: 2
         x: 480
@@ -3246,7 +3389,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_208
+      name: player-move-placeholder_218
       rect:
         serializedVersion: 2
         x: 0
@@ -3260,7 +3403,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_209
+      name: player-move-placeholder_219
       rect:
         serializedVersion: 2
         x: 32
@@ -3274,7 +3417,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_210
+      name: player-move-placeholder_220
       rect:
         serializedVersion: 2
         x: 64
@@ -3288,7 +3431,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_211
+      name: player-move-placeholder_221
       rect:
         serializedVersion: 2
         x: 96
@@ -3302,7 +3445,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_212
+      name: player-move-placeholder_222
       rect:
         serializedVersion: 2
         x: 128
@@ -3316,7 +3459,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_213
+      name: player-move-placeholder_223
       rect:
         serializedVersion: 2
         x: 160
@@ -3330,7 +3473,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_214
+      name: player-move-placeholder_224
       rect:
         serializedVersion: 2
         x: 192
@@ -3344,7 +3487,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_215
+      name: player-move-placeholder_225
       rect:
         serializedVersion: 2
         x: 224
@@ -3358,7 +3501,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_216
+      name: player-move-placeholder_226
       rect:
         serializedVersion: 2
         x: 256
@@ -3372,7 +3515,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_217
+      name: player-move-placeholder_227
       rect:
         serializedVersion: 2
         x: 288
@@ -3386,7 +3529,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_218
+      name: player-move-placeholder_228
       rect:
         serializedVersion: 2
         x: 320
@@ -3400,7 +3543,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_219
+      name: player-move-placeholder_229
       rect:
         serializedVersion: 2
         x: 352
@@ -3414,21 +3557,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_220
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_221
+      name: player-move-placeholder_230
       rect:
         serializedVersion: 2
         x: 416
@@ -3442,7 +3571,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_222
+      name: player-move-placeholder_231
       rect:
         serializedVersion: 2
         x: 448
@@ -3456,7 +3585,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_223
+      name: player-move-placeholder_232
       rect:
         serializedVersion: 2
         x: 480
@@ -3470,7 +3599,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_224
+      name: player-move-placeholder_233
       rect:
         serializedVersion: 2
         x: 0
@@ -3484,7 +3613,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_225
+      name: player-move-placeholder_234
       rect:
         serializedVersion: 2
         x: 32
@@ -3498,7 +3627,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_226
+      name: player-move-placeholder_235
       rect:
         serializedVersion: 2
         x: 64
@@ -3512,7 +3641,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_227
+      name: player-move-placeholder_236
       rect:
         serializedVersion: 2
         x: 96
@@ -3526,7 +3655,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_228
+      name: player-move-placeholder_237
       rect:
         serializedVersion: 2
         x: 128
@@ -3540,7 +3669,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_229
+      name: player-move-placeholder_238
       rect:
         serializedVersion: 2
         x: 160
@@ -3554,7 +3683,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_230
+      name: player-move-placeholder_239
       rect:
         serializedVersion: 2
         x: 192
@@ -3568,7 +3697,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_231
+      name: player-move-placeholder_240
       rect:
         serializedVersion: 2
         x: 224
@@ -3582,7 +3711,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_232
+      name: player-move-placeholder_241
       rect:
         serializedVersion: 2
         x: 256
@@ -3596,7 +3725,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_233
+      name: player-move-placeholder_242
       rect:
         serializedVersion: 2
         x: 288
@@ -3610,7 +3739,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_234
+      name: player-move-placeholder_243
       rect:
         serializedVersion: 2
         x: 320
@@ -3624,7 +3753,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_235
+      name: player-move-placeholder_244
       rect:
         serializedVersion: 2
         x: 352
@@ -3638,21 +3767,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_236
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_237
+      name: player-move-placeholder_245
       rect:
         serializedVersion: 2
         x: 416
@@ -3666,7 +3781,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_238
+      name: player-move-placeholder_246
       rect:
         serializedVersion: 2
         x: 448
@@ -3680,7 +3795,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_239
+      name: player-move-placeholder_247
       rect:
         serializedVersion: 2
         x: 480
@@ -3694,7 +3809,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_240
+      name: player-move-placeholder_248
       rect:
         serializedVersion: 2
         x: 0
@@ -3708,7 +3823,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_241
+      name: player-move-placeholder_249
       rect:
         serializedVersion: 2
         x: 32
@@ -3722,7 +3837,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_242
+      name: player-move-placeholder_250
       rect:
         serializedVersion: 2
         x: 64
@@ -3736,7 +3851,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_243
+      name: player-move-placeholder_251
       rect:
         serializedVersion: 2
         x: 96
@@ -3750,7 +3865,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_244
+      name: player-move-placeholder_252
       rect:
         serializedVersion: 2
         x: 128
@@ -3764,7 +3879,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_245
+      name: player-move-placeholder_253
       rect:
         serializedVersion: 2
         x: 160
@@ -3778,7 +3893,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_246
+      name: player-move-placeholder_254
       rect:
         serializedVersion: 2
         x: 192
@@ -3792,7 +3907,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_247
+      name: player-move-placeholder_255
       rect:
         serializedVersion: 2
         x: 224
@@ -3806,80 +3921,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: temp tileset_248
+      name: player-move-placeholder_256
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_249
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_250
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_251
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_252
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: temp tileset_253
-      rect:
-        serializedVersion: 2
-        x: 480
+        x: 256
         y: 0
         width: 32
         height: 32
