@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour {
+public class CameraController : MonoBehaviour
+{
 
     // public declarations come first
     public GameObject followTarget;
@@ -11,12 +12,13 @@ public class CameraController : MonoBehaviour {
     // then private
     private Vector3 targetPosition;
 
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update ()
+    // Use this for initialization
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         // keeping the update function readable and puting logic in a method.
         // May be a good Idea to never have the logic directly in the update function. 
