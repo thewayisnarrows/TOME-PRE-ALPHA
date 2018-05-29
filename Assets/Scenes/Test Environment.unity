@@ -260,7 +260,6 @@ GameObject:
   - component: {fileID: 1781349496}
   - component: {fileID: 1781349495}
   - component: {fileID: 1781349497}
-  - component: {fileID: 1781349499}
   - component: {fileID: 1781349498}
   m_Layer: 0
   m_Name: Player
@@ -337,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ce7237201703b44b2e6892f48b19ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 3
 --- !u!95 &1781349498
 Animator:
   serializedVersion: 3
@@ -355,14 +354,3 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &1781349499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1781349494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62c48a91fc58e984280e9768413e81ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
