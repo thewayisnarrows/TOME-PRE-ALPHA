@@ -43,9 +43,9 @@ public class PlayerController : MonoBehaviour
 
     private void LookAtMouse()
     {
-        Vector3 characterPostion = Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 characterPosition = Camera.main.WorldToScreenPoint(transform.position);
 
-        lastMove = new Vector2(Input.mousePosition.x - characterPostion.x, Input.mousePosition.y - characterPostion.y);
+        lastMove = new Vector2(Input.mousePosition.x - characterPosition.x, Input.mousePosition.y - characterPosition.y);
     }
 
     private void UpdateAnimation()
