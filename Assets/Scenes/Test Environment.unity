@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ce7237201703b44b2e6892f48b19ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 20
 --- !u!95 &1781349498
 Animator:
   serializedVersion: 3
@@ -366,4 +366,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c48a91fc58e984280e9768413e81ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 492174966}

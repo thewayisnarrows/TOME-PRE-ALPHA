@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        
     }
 
     // Update is called once per frame
@@ -59,6 +58,17 @@ public class PlayerController : MonoBehaviour
 
     private void MoveCharacter(string axis)
     {
+        // currently unused
+        //currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 1.5f : moveSpeed;
+
+        // https://www.youtube.com/watch?v=ZriXzQWjnmI
+        //float movementInputX = Input.GetAxisRaw("Horizontal");
+        //float movementInputY = Input.GetAxisRaw("Vertical");
+
+        //Vector2 direction = new Vector2(movementInputX, movementInputY);
+        //direction.Normalize();
+        //direction *= moveSpeed;
+
         float moveAmount = Input.GetAxisRaw(axis);
         float velocity = moveAmount * moveSpeed * Time.deltaTime;
 
@@ -67,7 +77,6 @@ public class PlayerController : MonoBehaviour
         playerMoving = true;
         lastMove = new Vector2(axis.Equals("Horizontal") ? moveAmount : 0f, axis.Equals("Vertical") ? moveAmount : 0f);
 
-        // currently unused
-        //currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 2f : moveSpeed;
+        
     }
 }
