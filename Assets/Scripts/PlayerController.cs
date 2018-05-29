@@ -8,23 +8,20 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
 
     private float currentMoveSpeed;
-
     private Animator animator;
-
     private bool playerMoving;
-
     private Vector2 lastMove;
 
     // Use this for initialization
     void Start()
     {
         animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
         playerMoving = false;
 
         if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f)
@@ -37,6 +34,22 @@ public class PlayerController : MonoBehaviour
             MoveCharacter("Vertical");
         }
 
+        // Face toward mouse
+        LookAtMouse();
+        
+        // update characters animations with effects from movecharacter and lookatmouse
+        UpdateAnimation();
+    }
+
+    private void LookAtMouse()
+    {
+        Vector3 characterPosition = Camera.main.WorldToScreenPoint(transform.position);
+
+        lastMove = new Vector2(Input.mousePosition.x - characterPosition.x, Input.mousePosition.y - characterPosition.y);
+    }
+
+    private void UpdateAnimation()
+    {
         animator.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         animator.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         animator.SetBool("PlayerMoving", playerMoving);
@@ -54,6 +67,7 @@ public class PlayerController : MonoBehaviour
         playerMoving = true;
         lastMove = new Vector2(axis.Equals("Horizontal") ? moveAmount : 0f, axis.Equals("Vertical") ? moveAmount : 0f);
 
-        currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 2f : moveSpeed;
+        // currently unused
+        //currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 2f : moveSpeed;
     }
 }
