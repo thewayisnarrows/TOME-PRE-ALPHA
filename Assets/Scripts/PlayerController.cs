@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     private float currentMoveSpeed;
     private Animator animator;
+    //private Rigidbody2D playerRigidbody; <---- Tutorial Suggested
     private bool playerMoving;
     private Vector2 lastMove;
 
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        //playerRigidbody = GetComponent<Rigidbody2D>(); <---- Tutorial Suggested
     }
 
     // Update is called once per frame
@@ -26,12 +28,25 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f)
         {
             MoveCharacter("Horizontal");
+            //playerRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * moveSpeed, playerRigidbody.velocity.y);<---- Tutorial Suggested
         }
 
         if (Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
         {
             MoveCharacter("Vertical");
+            //playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * moveSpeed); <---- Tutorial Suggested
         }
+
+        // Tutorial Suggested:
+        //if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
+        //{
+        //    playerRigidbody.velocity = new Vector2(0f, playerRigidbody.velocity.y);
+        //}
+        //
+        //if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
+        //{
+        //    playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
+        //}
 
         // Face toward mouse
         LookAtMouse();
