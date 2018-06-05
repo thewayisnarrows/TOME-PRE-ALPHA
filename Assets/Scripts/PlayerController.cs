@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public float moveSpeed;
+    public float diagonalMoveModifier;
 
     private float currentMoveSpeed;
     private Animator animator;
@@ -43,6 +44,19 @@ public class PlayerController : MonoBehaviour
 
         // update characters animations with effects from movecharacter and lookatmouse
         UpdateAnimation();
+
+
+    }
+
+    private void MoveCharacter(string axis)
+    {
+        currentMoveSpeed = CalculateMoveSpeed();
+
+        playerMoving = true;
+        float velocityDelta = Input.GetAxisRaw(axis) * currentMoveSpeed;
+
+        playerRigidbody.velocity = new Vector2(axis.Equals("Horizontal") ? velocityDelta : playerRigidbody.velocity.x, axis.Equals("Vertical") ? velocityDelta : playerRigidbody.velocity.y);
+
     }
 
     private void StandingStillCheck()
@@ -74,23 +88,16 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("LastMoveY", lastMove.y);
     }
 
-    private void MoveCharacter(string axis)
+    private float CalculateMoveSpeed()
     {
-        // currently unused
-        //currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 1.5f : moveSpeed;
-
-        // https://www.youtube.com/watch?v=ZriXzQWjnmI
-        //float movementInputX = Input.GetAxisRaw("Horizontal");
-        //float movementInputY = Input.GetAxisRaw("Vertical");
-
-        //Vector2 direction = new Vector2(movementInputX, movementInputY);
-        //direction.Normalize();
-        //direction *= moveSpeed;
-
-        playerMoving = true;
-        float velocityDelta = Input.GetAxisRaw(axis) * moveSpeed;
-
-        playerRigidbody.velocity = new Vector2(axis.Equals("Horizontal") ? velocityDelta : playerRigidbody.velocity.x, axis.Equals("Vertical") ? velocityDelta : playerRigidbody.velocity.y);
-
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f
+                    && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
+        {
+            return moveSpeed * diagonalMoveModifier;
+        }
+        else
+        {
+            return moveSpeed;
+        }
     }
 }
