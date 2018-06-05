@@ -6,9 +6,11 @@ public class PlayerController : MonoBehaviour
 {
 
     public float moveSpeed;
+    public float diagonalMoveModifier;
 
     private float currentMoveSpeed;
     private Animator animator;
+    private Rigidbody2D playerRigidbody;
     private bool playerMoving;
     private Vector2 lastMove;
 
@@ -16,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        playerRigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -33,11 +36,38 @@ public class PlayerController : MonoBehaviour
             MoveCharacter("Vertical");
         }
 
+        // if player is standing still stop movement
+        StandingStillCheck();
+
         // Face toward mouse
         LookAtMouse();
-        
+
         // update characters animations with effects from movecharacter and lookatmouse
         UpdateAnimation();
+    }
+
+    private void MoveCharacter(string axis)
+    {
+        currentMoveSpeed = CalculateMoveSpeed();
+
+        playerMoving = true;
+        float velocityDelta = Input.GetAxisRaw(axis) * currentMoveSpeed;
+
+        playerRigidbody.velocity = new Vector2(axis.Equals("Horizontal") ? velocityDelta : playerRigidbody.velocity.x, axis.Equals("Vertical") ? velocityDelta : playerRigidbody.velocity.y);
+
+    }
+
+    private void StandingStillCheck()
+    {
+        if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
+        {
+            playerRigidbody.velocity = new Vector2(0f, playerRigidbody.velocity.y);
+        }
+
+        if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
+        {
+            playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
+        }
     }
 
     private void LookAtMouse()
@@ -56,27 +86,16 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("LastMoveY", lastMove.y);
     }
 
-    private void MoveCharacter(string axis)
+    private float CalculateMoveSpeed()
     {
-        // currently unused
-        //currentMoveSpeed = (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f) ? moveSpeed / 1.5f : moveSpeed;
-
-        // https://www.youtube.com/watch?v=ZriXzQWjnmI
-        //float movementInputX = Input.GetAxisRaw("Horizontal");
-        //float movementInputY = Input.GetAxisRaw("Vertical");
-
-        //Vector2 direction = new Vector2(movementInputX, movementInputY);
-        //direction.Normalize();
-        //direction *= moveSpeed;
-
-        float moveAmount = Input.GetAxisRaw(axis);
-        float velocity = moveAmount * moveSpeed * Time.deltaTime;
-
-        transform.Translate(new Vector3(axis.Equals("Horizontal") ? velocity : 0f, axis.Equals("Vertical") ? velocity : 0f, 0f));
-
-        playerMoving = true;
-        lastMove = new Vector2(axis.Equals("Horizontal") ? moveAmount : 0f, axis.Equals("Vertical") ? moveAmount : 0f);
-
-        
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f
+                    && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
+        {
+            return moveSpeed * diagonalMoveModifier;
+        }
+        else
+        {
+            return moveSpeed;
+        }
     }
 }
