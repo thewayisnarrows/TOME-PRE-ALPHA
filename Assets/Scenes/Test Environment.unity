@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  diagonalMoveModifier: 0.75
 --- !u!95 &1781349498
 Animator:
   serializedVersion: 3

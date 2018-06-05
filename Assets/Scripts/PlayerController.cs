@@ -44,8 +44,6 @@ public class PlayerController : MonoBehaviour
 
         // update characters animations with effects from movecharacter and lookatmouse
         UpdateAnimation();
-
-
     }
 
     private void MoveCharacter(string axis)
