@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,6 +37,7 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
         {
             MoveCharacter("Vertical");
+            //Heal();
         }
 
         // if player is standing still stop movement
@@ -124,5 +123,10 @@ public class PlayerController : MonoBehaviour
     //private void Attack()
     //{
     //    DamageManager.DealDamage(gameObject, 20);
+    //}
+
+    //public void Heal()
+    //{
+    //    gameObject.GetComponent<HealthManager>().Heal(20);
     //}
 }
