@@ -22,7 +22,7 @@ public class HealthManager : MonoBehaviour {
     void Update () {
 		if (currentHealth < 1)
         {
-            getHealthStats();
+            healthStats.getHealthStats();
             gameObject.SetActive(false);
         } 
 	}
@@ -63,13 +63,6 @@ public class HealthManager : MonoBehaviour {
             healthStats.OverHealing += currentHealth - maxHealth;
             SetMaxHealth();
         }
-    }
-
-    public void getHealthStats()
-    {
-        Debug.Log("Total healing: " + healthStats.TotalHealing.ToString());
-        Debug.Log("Total damage: " + healthStats.TotalDamageTaken.ToString());
-        Debug.Log("overhealing: " + healthStats.OverHealing.ToString());
     }
 }
 

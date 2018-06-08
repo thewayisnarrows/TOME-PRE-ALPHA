@@ -1,52 +1,24 @@
-﻿public class HealthStats
-{
-    private int overHealing;
-    private int totalHealing;
-    private int totalDamageTaken;
+﻿using UnityEngine;
 
+public class HealthStats
+{
     public HealthStats()
     {
-        this.OverHealing = 0;
-        this.TotalHealing = 0;
-        this.TotalDamageTaken = 0;
+        OverHealing = 0;
+        TotalHealing = 0;
+        TotalDamageTaken = 0;
     }
 
-    public int OverHealing
+    public void getHealthStats()
     {
-        get
-        {
-            return overHealing;
-        }
-
-        set
-        {
-            overHealing = value;
-        }
+        Debug.Log("Total healing: " + TotalHealing.ToString());
+        Debug.Log("Total damage: " + TotalDamageTaken.ToString());
+        Debug.Log("overhealing: " + OverHealing.ToString());
     }
 
-    public int TotalHealing
-    {
-        get
-        {
-            return totalHealing;
-        }
+    public int OverHealing { get; set; }
 
-        set
-        {
-            totalHealing = value;
-        }
-    }
+    public int TotalDamageTaken { get; set; }
 
-    public int TotalDamageTaken
-    {
-        get
-        {
-            return totalDamageTaken;
-        }
-
-        set
-        {
-            totalDamageTaken = value;
-        }
-    }
+    public int TotalHealing { get; set; }
 }
