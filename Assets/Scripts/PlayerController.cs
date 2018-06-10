@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,6 +11,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRigidbody;
     private bool playerMoving;
     private Vector2 lastMove;
+
+    private DamageManager damageManager = new DamageManager();
 
     // Use this for initialization
     void Start()
@@ -46,6 +46,11 @@ public class PlayerController : MonoBehaviour
         UpdateAnimation();
     }
 
+
+    /// <summary>
+    /// Moves the character across a certain plane
+    /// </summary>
+    /// <param name="axis">"Horizontal" or "Vertical"</param>
     private void MoveCharacter(string axis)
     {
         currentMoveSpeed = CalculateMoveSpeed();
@@ -53,10 +58,15 @@ public class PlayerController : MonoBehaviour
         playerMoving = true;
         float velocityDelta = Input.GetAxisRaw(axis) * currentMoveSpeed;
 
-        playerRigidbody.velocity = new Vector2(axis.Equals("Horizontal") ? velocityDelta : playerRigidbody.velocity.x, axis.Equals("Vertical") ? velocityDelta : playerRigidbody.velocity.y);
+        playerRigidbody.velocity = new Vector2(
+            axis.Equals("Horizontal") ? velocityDelta : playerRigidbody.velocity.x,
+            axis.Equals("Vertical") ? velocityDelta : playerRigidbody.velocity.y);
 
     }
 
+    /// <summary>
+    /// Sets velocity on the playerRigidbody object when player is not moving on the Horzontal or Veritcal Axis
+    /// </summary>
     private void StandingStillCheck()
     {
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
@@ -69,7 +79,10 @@ public class PlayerController : MonoBehaviour
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
         }
     }
-
+    
+    /// <summary>
+    /// Turns Character to face towards mouse
+    /// </summary>
     private void LookAtMouse()
     {
         Vector3 characterPosition = Camera.main.WorldToScreenPoint(transform.position);
@@ -86,6 +99,10 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("LastMoveY", lastMove.y);
     }
 
+    /// <summary>
+    /// Calculates current movespeed to compensate for diagonal movement
+    /// </summary>
+    /// <returns>adjusted move speed</returns>
     private float CalculateMoveSpeed()
     {
         if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f

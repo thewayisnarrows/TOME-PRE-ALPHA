@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -25,6 +23,9 @@ public class CameraController : MonoBehaviour
         ChangeCameraPosition();
     }
 
+    /// <summary>
+    /// Follow Target specified in the component
+    /// </summary>
     private void ChangeCameraPosition()
     {
         // Variable used twice so declaring it locally
