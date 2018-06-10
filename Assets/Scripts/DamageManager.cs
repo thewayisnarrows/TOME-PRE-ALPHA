@@ -5,6 +5,7 @@
 /// </summary>
 public class DamageManager {
 
+
     /// <summary>
     /// Deal damage to an object.
     /// </summary>

@@ -10,13 +10,13 @@ public class HealthManager : MonoBehaviour {
 
     public HealthStats healthStats = new HealthStats();
 
+
 	// Use this for initialization
 	void Start ()
     {
         SetMaxHealth();
         ResetStats();
     }
-
 
     // Update is called once per frame
     void Update () {
