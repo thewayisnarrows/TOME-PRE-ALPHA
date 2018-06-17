@@ -11,7 +11,7 @@ TextureImporter:
     21300008: player-attack-SE-1
     21300010: player-attack-S-1
     21300012: player-attack-SW-1
-    21300014: player-attack-placeholder_7
+    21300014: player-attack-W-1
     21300016: player-attack-NW-2
     21300018: player-attack-N-2
     21300020: player-attack-NE-2
@@ -19,7 +19,7 @@ TextureImporter:
     21300024: player-attack-SE-2
     21300026: player-attack-S-2
     21300028: player-attack-SW-2
-    21300030: player-attack-placeholder_15
+    21300030: player-attack-W-2
     21300032: player-attack-NW-3
     21300034: player-attack-N-3
     21300036: player-attack-NE-3
@@ -27,7 +27,7 @@ TextureImporter:
     21300040: player-attack-SE-3
     21300042: player-attack-S-3
     21300044: player-attack-SW-3
-    21300046: player-attack-placeholder_23
+    21300046: player-attack-W-3
     21300048: player-attack-NW-4
     21300050: player-attack-N-4
     21300052: player-attack-NE-4
@@ -35,7 +35,7 @@ TextureImporter:
     21300056: player-attack-SE-4
     21300058: player-attack-S-4
     21300060: player-attack-SW-4
-    21300062: player-attack-placeholder_31
+    21300062: player-attack-W-4
     21300064: player-attack-NW-5
     21300066: player-attack-N-5
     21300068: player-attack-NE-5
@@ -43,7 +43,7 @@ TextureImporter:
     21300072: player-attack-SE-5
     21300074: player-attack-S-5
     21300076: player-attack-SW-5
-    21300078: player-attack-placeholder_39
+    21300078: player-attack-W-5
     21300080: player-attack-NW-6
     21300082: player-attack-N-6
     21300084: player-attack-NE-6
@@ -51,7 +51,7 @@ TextureImporter:
     21300088: player-attack-SE-6
     21300090: player-attack-S-6
     21300092: player-attack-SW-6
-    21300094: player-attack-placeholder_47
+    21300094: player-attack-W-6
     21300096: player-attack-NW-7
     21300098: player-attack-N-7
     21300100: player-attack-NE-7
@@ -59,7 +59,7 @@ TextureImporter:
     21300104: player-attack-SE-7
     21300106: player-attack-S-7
     21300108: player-attack-SW-7
-    21300110: player-attack-placeholder_55
+    21300110: player-attack-W-7
     21300112: player-attack-E-1
     21300114: player-attack-E-2
     21300116: player-attack-E-3
@@ -241,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_7
+      name: player-attack-W-1
       rect:
         serializedVersion: 2
         x: 224
@@ -353,7 +353,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_15
+      name: player-attack-W-2
       rect:
         serializedVersion: 2
         x: 224
@@ -465,7 +465,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_23
+      name: player-attack-W-3
       rect:
         serializedVersion: 2
         x: 224
@@ -577,7 +577,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_31
+      name: player-attack-W-4
       rect:
         serializedVersion: 2
         x: 224
@@ -689,7 +689,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_39
+      name: player-attack-W-5
       rect:
         serializedVersion: 2
         x: 224
@@ -801,7 +801,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_47
+      name: player-attack-W-6
       rect:
         serializedVersion: 2
         x: 224
@@ -913,7 +913,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: player-attack-placeholder_55
+      name: player-attack-W-7
       rect:
         serializedVersion: 2
         x: 224
