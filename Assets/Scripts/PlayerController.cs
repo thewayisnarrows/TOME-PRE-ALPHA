@@ -12,7 +12,14 @@ public class PlayerController : MonoBehaviour
     private bool playerMoving;
     private Vector2 lastMove;
 
+
+    private bool attacking;
+    public float attackTime;
+    private float attackTimeCounter;
+
+
     private DamageManager damageManager = new DamageManager();
+
 
     // Use this for initialization
     void Start()
@@ -25,6 +32,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         playerMoving = false;
+
+        if(!attacking)
+        {
 
         if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f)
         {
@@ -44,6 +54,27 @@ public class PlayerController : MonoBehaviour
 
         // update characters animations with effects from movecharacter and lookatmouse
         UpdateAnimation();
+
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            attackTimeCounter = attackTime;
+            attacking = true;
+            playerRigidbody.velocity = Vector2.zero;
+            animator.SetBool("Attack", true);
+        }
+
+        }
+
+        if(attackTimeCounter > 0)
+        {
+            attackTimeCounter -= Time.deltaTime;
+        }
+
+        if(attackTimeCounter <= 0)
+        {
+            attacking = false;
+            animator.SetBool("Attack", false);
+        }
     }
 
 
