@@ -33,44 +33,43 @@ public class PlayerController : MonoBehaviour
     {
         playerMoving = false;
 
-        if(!attacking)
+        if (!attacking)
         {
 
-        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f)
-        {
-            MoveCharacter("Horizontal");
+            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f)
+            {
+                MoveCharacter("Horizontal");
+            }
+
+            if (Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
+            {
+                MoveCharacter("Vertical");
+            }
+
+            // if player is standing still stop movement
+            StandingStillCheck();
+
+            // Face toward mouse
+            LookAtMouse();
+
+            // update characters animations with effects from movecharacter and lookatmouse
+            UpdateAnimation();
+
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                attackTimeCounter = attackTime;
+                attacking = true;
+                playerRigidbody.velocity = Vector2.zero;
+                animator.SetBool("Attack", true);
+            }
+
         }
 
-        if (Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
-        {
-            MoveCharacter("Vertical");
-        }
-
-        // if player is standing still stop movement
-        StandingStillCheck();
-
-        // Face toward mouse
-        LookAtMouse();
-
-        // update characters animations with effects from movecharacter and lookatmouse
-        UpdateAnimation();
-
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            attackTimeCounter = attackTime;
-            attacking = true;
-            playerRigidbody.velocity = Vector2.zero;
-            animator.SetBool("Attack", true);
-        }
-
-        }
-
-        if(attackTimeCounter > 0)
+        if (attackTimeCounter > 0)
         {
             attackTimeCounter -= Time.deltaTime;
         }
-
-        if(attackTimeCounter <= 0)
+        else
         {
             attacking = false;
             animator.SetBool("Attack", false);
@@ -110,7 +109,7 @@ public class PlayerController : MonoBehaviour
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
         }
     }
-    
+
     /// <summary>
     /// Turns Character to face towards mouse
     /// </summary>
