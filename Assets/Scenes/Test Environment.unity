@@ -565,3 +565,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1000
   currentHealth: 0
+  regenValue: 2
+  regenRate: 0.1
