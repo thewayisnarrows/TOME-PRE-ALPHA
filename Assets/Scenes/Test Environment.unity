@@ -776,7 +776,6 @@ GameObject:
   - component: {fileID: 1781349501}
   - component: {fileID: 1781349503}
   - component: {fileID: 1781349502}
-  - component: {fileID: 1781349502}
   m_Layer: 0
   m_Name: Player
   m_TagString: Enemy
@@ -929,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeac3ae0dc649564880bb66b2ce8949e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 1000
   currentHealth: 0
   regenValue: 2
   regenRate: 0.2
@@ -963,4 +962,3 @@ MonoBehaviour:
   currentMana: 0
   regenValue: 2
   regenRate: 0.1
-
