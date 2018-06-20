@@ -7,6 +7,9 @@ public class HealthManager : MonoBehaviour {
 
     public int maxHealth;
     public int currentHealth;
+    public int regenValue;
+    public float regenRate;
+
 
     public HealthStats healthStats = new HealthStats();
 
@@ -16,6 +19,8 @@ public class HealthManager : MonoBehaviour {
     {
         SetMaxHealth();
         ResetStats();
+
+        InvokeRepeating("Regenerate", 0.0f, regenRate);
     }
 
     // Update is called once per frame
@@ -24,7 +29,7 @@ public class HealthManager : MonoBehaviour {
         {
             healthStats.getHealthStats();
             gameObject.SetActive(false);
-        } 
+        }
 	}
 
     private void ResetStats()
@@ -62,6 +67,17 @@ public class HealthManager : MonoBehaviour {
         {
             healthStats.OverHealing += currentHealth - maxHealth;
             SetMaxHealth();
+        }
+    }
+
+    /// <summary>
+    /// Adds current regenValue to currentHealth
+    /// </summary>
+    private void Regenerate()
+    {
+        if (currentHealth < maxHealth)
+        {
+            currentHealth += regenValue;
         }
     }
 }
