@@ -930,7 +930,7 @@ MonoBehaviour:
   maxHealth: 1000
   currentHealth: 0
   regenValue: 2
-  regenRate: 0.1
+  regenRate: 0.2
 --- !u!114 &1781349502
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -70,6 +70,9 @@ public class HealthManager : MonoBehaviour {
         }
     }
 
+    /// <summary>
+    /// Adds current regenValue to currentHealth
+    /// </summary>
     private void Regenerate()
     {
         if (currentHealth < maxHealth)
