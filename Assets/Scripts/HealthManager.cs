@@ -29,7 +29,7 @@ public class HealthManager : MonoBehaviour {
         {
             healthStats.getHealthStats();
             gameObject.SetActive(false);
-        } 
+        }
 	}
 
     private void ResetStats()
