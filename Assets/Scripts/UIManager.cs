@@ -9,6 +9,10 @@ public class UIManager : MonoBehaviour {
     public Text HPText;
     public HealthManager playerHealth;
 
+    public Slider manaBar;
+    public Text ManaText;
+    public ManaManager playerMana;
+
     private static bool UIExists;
 
 	// Use this for initialization
@@ -32,6 +36,10 @@ public class UIManager : MonoBehaviour {
         healthBar.maxValue = playerHealth.maxHealth;
         healthBar.value = playerHealth.currentHealth;
         HPText.text = "HP: " + playerHealth.currentHealth + "/" + playerHealth.maxHealth;
-		
-	}
+
+        manaBar.maxValue = playerMana.maxMana;
+        manaBar.value = playerMana.currentMana;
+        ManaText.text = "Mana: " + playerMana.currentMana + "/" + playerMana.maxMana;
+
+    }
 }
