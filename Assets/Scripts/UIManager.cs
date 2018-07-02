@@ -16,23 +16,35 @@ public class UIManager : MonoBehaviour {
     private static bool UIExists;
 
 	// Use this for initialization
-	void Start () {
-
+	void Start ()
+    {
         // This is to keep UI from duplicating as the game changes scenes
         // might not need this later on
+
+        PreserveUI();
+
+    }
+
+    /// <summary>
+    /// Preserves UI when game scene changes.
+    /// </summary>
+    private void PreserveUI()
+    {
         if (!UIExists)
         {
             UIExists = true;
             DontDestroyOnLoad(transform.gameObject);
-            } else {
+        }
+        else
+        {
             Destroy(gameObject);
 
         }
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+
+    // Update is called once per frame
+    void Update () {
         healthBar.maxValue = playerHealth.maxHealth;
         healthBar.value = playerHealth.currentHealth;
         HPText.text = "HP: " + playerHealth.currentHealth + "/" + playerHealth.maxHealth;
