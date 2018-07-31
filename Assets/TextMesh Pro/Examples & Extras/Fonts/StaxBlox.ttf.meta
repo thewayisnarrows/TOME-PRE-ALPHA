@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 84188041b8c8e584c815594163157a73
+timeCreated: 1532744944
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: StaxBlox
+  fontNames:
+  - StaxBlox
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f026b84e8eb4df3469d472ec8c3eb8e2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
