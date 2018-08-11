@@ -21,26 +21,26 @@ public class UIManager : MonoBehaviour {
         // This is to keep UI from duplicating as the game changes scenes
         // might not need this later on
 
-        PreserveUI();
+        //PreserveUI();
 
     }
 
     /// <summary>
     /// Preserves UI when game scene changes.
     /// </summary>
-    private void PreserveUI()
-    {
-        if (!UIExists)
-        {
-            UIExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
+    //private void PreserveUI()
+    //{
+    //    if (!UIExists)
+    //    {
+    //        UIExists = true;
+    //        DontDestroyOnLoad(transform.gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
 
-        }
-    }
+    //    }
+    //}
 
 
     // Update is called once per frame
