@@ -22,7 +22,7 @@ public class EnemyDamage : MonoBehaviour {
     {
         if(other.gameObject.tag == "Enemy")
         {
-            other.gameObject.GetComponent<EnemyHealthManager>().Hurt(damage);
+            other.gameObject.GetComponent<HealthManager>().Hurt(damage);
             Instantiate(damageParticleBurst, hitPoint.position, hitPoint.rotation);
         }
     }
