@@ -11,7 +11,7 @@ public partial class CursorController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
+        Cursor.SetCursor(defaultCursor, hotSpot, cursorMode);
     }
 	
 	// Update is called once per frame
@@ -19,13 +19,13 @@ public partial class CursorController : MonoBehaviour {
         
     }
 
-    private void OnMouseEnter()
-    {
-        Cursor.SetCursor(activeCursor, hotSpot, cursorMode);
-    }
+    //private void OnMouseEnter()
+    //{
+    //    Cursor.SetCursor(activeCursor, hotSpot, cursorMode);
+    //}
 
-    private void OnMouseExit()
-    {
-        Cursor.SetCursor(defaultCursor, hotSpot, cursorMode);
-    }
+    //private void OnMouseExit()
+    //{
+    //    Cursor.SetCursor(defaultCursor, hotSpot, cursorMode);
+    //}
 }

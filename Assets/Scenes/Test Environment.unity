@@ -1098,7 +1098,6 @@ GameObject:
   m_Component:
   - component: {fileID: 974238160}
   - component: {fileID: 974238163}
-  - component: {fileID: 974238161}
   m_Layer: 0
   m_Name: Test Environment
   m_TagString: Untagged
@@ -1122,21 +1121,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &974238161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 974238158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3d2cd7551e1a944b33b1e8425e1284, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultCursor: {fileID: 0}
-  activeCursor: {fileID: 0}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
 --- !u!114 &974238163
 MonoBehaviour:
   m_ObjectHideFlags: 0
